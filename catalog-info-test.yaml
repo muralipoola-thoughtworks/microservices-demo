@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: shopsec_cataloginfo
+  description: Helper tool to create and validate catalog-info.yamls
+  annotations:
+    github.com/project-slug: otto-ec/shopsec_cataloginfo_tool
+  tags:
+    - python
+    - cli
+  assetClassification:
+    confidentiality: C2_INTERNAL
+    integrity: I2_INTEGRITY
+    availability: A1_NO_AVAILABILITY
+    personalData: D1_NON_USER_RELATED
+spec:
+  type: service
+  lifecycle: development
+  owner: group:shopsec
